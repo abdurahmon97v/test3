@@ -1,0 +1,28 @@
+.hero{
+  padding: 117px 0;
+  background-repeat: no-repeat;
+  background-image: url('../../img/Bitmap.jpg');
+}
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  // border-collapse: collapse;
+}
+.table-custom{
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.input-block{
+  margin-bottom: 100px;
+}
+.label{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border:2px solid blueviolet;
+  border-radius: 10px;
+}
+.checkbox-confirm:checked + .label{
+  background-color: blueviolet;
+}

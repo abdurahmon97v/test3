@@ -1,0 +1,30 @@
+@mixin text-style($color:#000) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $color;
+}
+
+@mixin lineBlock {
+  background-color: #FDD6BA;
+  height: 2px;
+  margin-top: 50px;
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  align-items:center;
+}
